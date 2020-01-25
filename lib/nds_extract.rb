@@ -46,16 +46,13 @@ end
 
 def gross_per_studio(collection)
   final_hash = {} 
-  counter2 = 0 
-  while counter2 < collection.length do 
   
-  end 
   final_hash 
 end
 
   # INPUT: collection: Array of Hashes where each Hash where each Hash represents a movie
   # RETURN: Hash whose keys are the studio names and whose values are the sum total of all the worldwide_gross numbers for every movie in the input Hash
-  # example_hash = {:universal => 1220202020202, :}
+  # example_hash = {:universal => 1220202020202, :columbia => 923804298347983}
 
 def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
