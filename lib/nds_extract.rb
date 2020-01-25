@@ -55,7 +55,7 @@ end
 
   # INPUT: collection: Array of Hashes where each Hash where each Hash represents a movie
   # RETURN: Hash whose keys are the studio names and whose values are the sum total of all the worldwide_gross numbers for every movie in the input Hash
-  # example_hash = {}
+  # example_hash = {:universal => }
 
 def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
