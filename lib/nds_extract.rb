@@ -48,6 +48,7 @@ end
   # * movies_collection: An Array of Hashes where each Hash represents a movie
   # RETURN:
   # Array of Hashes where each Hash represents a movie; however, they should all have a :director_name key. This addition can be done by using the provided movie_with_director_name method
+  # take that - it's a hash. put it into an array 
 
 def gross_per_studio(collection)
   # GOAL: Given an Array of Hashes where each Hash represents a movie,
