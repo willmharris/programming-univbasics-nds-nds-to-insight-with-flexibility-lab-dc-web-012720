@@ -48,7 +48,8 @@ def gross_per_studio(collection)
   final_hash = {} 
   counter2 = 0 
     while counter2 < collection.length do 
-      
+      current_studio = collection[counter2][]
+      if final_hash
       counter2 += 1 
     end 
   final_hash 
