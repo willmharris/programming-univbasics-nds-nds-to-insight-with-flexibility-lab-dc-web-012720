@@ -62,7 +62,8 @@ def movies_with_directors_set(source)
   final_array = [] 
   final_counter = 0 
   while final_counter < source.length do
-    
+    name = source[final_counter][:name]
+    movies_collection = source[final_counter][:movies]
     movies_with_director_key(name, movies_collection) # this will give an array of movie hashes with the director name included for that director 
     final_counter += 1 
   end 
