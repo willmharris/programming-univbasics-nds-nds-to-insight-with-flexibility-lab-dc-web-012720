@@ -49,7 +49,7 @@ def gross_per_studio(collection)
   counter2 = 0 
     while counter2 < collection.length do 
       current_studio = collection[counter2][:studio]
-      if final_hash[current_studio] == nil do 
+      if final_hash[current_studio] == nil 
         final_hash[current_studio] = 0 
       end 
       final_hash[current_studio] += collection[counter2][worldwide_gross]
