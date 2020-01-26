@@ -52,7 +52,7 @@ def gross_per_studio(collection)
       if final_hash[current_studio] == nil do 
         final_hash[current_studio] = 0 
       end 
-      final_hash[current_studio] =+ collection[counter2][]
+      final_hash[current_studio] =+ collection[counter2][worldwide_gross]
       counter2 += 1 
     end 
   final_hash 
