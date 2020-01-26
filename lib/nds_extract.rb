@@ -62,6 +62,7 @@ def movies_with_directors_set(source)
   final_array = [] 
   final_counter = 0 
   while final_counter < source.length do
+    
     final_counter += 1 
   end 
   final_array
